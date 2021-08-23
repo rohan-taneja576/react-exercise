@@ -1,0 +1,38 @@
+.add-meeting {
+  border: 1px solid;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px #000;
+  padding: 35px 0px;
+}
+.meeting-date,
+.start-time,
+.end-time {
+  box-sizing: border-box;
+  box-shadow: 0px 0px 3px #000;
+  width: 25%;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 90%;
+}
+.second-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.third-block {
+  box-sizing: border-box;
+  box-shadow: 0px 0px 3px #000;
+  height: 300px;
+}
+.save-btn {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
