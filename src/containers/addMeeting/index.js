@@ -134,7 +134,9 @@ const AddMeeting = props => {
                 **Slot not available
               </h6>
             ) : (
-              ''
+              <h6 className='mt-2' style={{ color: 'red' }}>
+                **Slot available
+              </h6>
             )}
           </div>
           <div className='save-btn'>
