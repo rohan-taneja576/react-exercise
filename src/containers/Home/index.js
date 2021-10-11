@@ -5,6 +5,7 @@ import './index.css';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import ListItems from '../../components/ListItems';
+import Counter from '..';
 
 const Home = props => {
   let monthsArray = [
@@ -84,6 +85,7 @@ const Home = props => {
           <Button type='submit'>Add Meeting</Button>
         </Link>
       </div>
+      <Counter />
     </>
   );
 };

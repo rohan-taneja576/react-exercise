@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -33,7 +33,11 @@ const DateCarousel = props => {
     }
   };
 
+
+  
+
   return (
+    <>
     <Container className='container d-flex justify-content-center'>
       <Row className='row mt-5 p-3 text-center row w-50'>
         <Col>
@@ -57,6 +61,7 @@ const DateCarousel = props => {
         </Col>
       </Row>
     </Container>
+    </>
   );
 };
 
